@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/item_employee_bai6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/item_employee_ll_parent">
+        <ImageView
+            android:id="@+id/sampleID"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_laptop"
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/studentName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:singleLine="true" />
+        <TextView
+            android:id="@+id/className"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_gravity="center_vertical"
+            android:paddingVertical="10dp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
